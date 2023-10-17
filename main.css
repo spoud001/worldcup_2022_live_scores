@@ -1,0 +1,117 @@
+
+
+
+body{
+    height: 100%;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed
+}
+
+.container{
+    position: absolute;
+    padding: 16px;
+    left: 25%;
+    width: 50%;
+    background-color:rgba(250,250,250, 0.7);
+    text-align: initial;
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.title-box{
+    margin: 25px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 1.5em;
+   
+    
+}
+.title-box #goals{
+    font-size: 1.8em;
+}
+.team{
+    width: 100px;
+}
+.team img{
+    height: 54px;
+    width: 54px;
+}
+.matches-table{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.match-tile{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow: auto;
+    
+}
+.match-tile img{
+    width: 52px;
+    height: 52px;
+}
+.match-tile p{
+    font-size: 1.2rem;
+}
+
+.match-tile #goals{
+    font-size: 1.8rem;
+}
+.match-tile .team{
+    width: 100px;
+}
+.collapsible{
+    background-color: rgba(0,0,0,0);
+    border: none;
+   width: 100%;
+}
+.active, .collapsible:hover {
+    background-color: rgba(250,250,250, 0.7);
+  }
+
+.match-statistics {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  .statistics{
+    font-size: large;
+    display: none;
+    text-align: left;
+    
+  }
+  .stats-tile{
+    
+    line-height: 1.3;
+    display:block;
+  }
+  .home-stats{
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 100px;
+    
+    
+    
+    
+  }
+  .away-stats{
+    margin-left: 190px;
+    display: inline-block;
+    text-align: left;
+    
+  }
